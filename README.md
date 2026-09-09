@@ -2,7 +2,7 @@
 
 **Industrial Analytics · Python · SQL · Streamlit · Decision Support**
 
-[![CI](https://github.com/aaronexposito0-creator/manufacturing-intelligence-platform/actions/workflows/ci.yml/badge.svg)](https://github.com/aaronexposito0-creator/manufacturing-intelligence-platform/actions/workflows/ci.yml)
+[![CI](https://github.com/aaronexposito0-creator/manufacturing-intelligence-platform/actions/workflows/main.yml/badge.svg)](https://github.com/aaronexposito0-creator/manufacturing-intelligence-platform/actions/workflows/main.yml)
 
 A portfolio-grade manufacturing intelligence product that turns operational data into **traceable decisions**. The platform models a synthetic six-machine factory and connects OEE, production, quality, downtime and manufacturing economics in one interactive application.
 
