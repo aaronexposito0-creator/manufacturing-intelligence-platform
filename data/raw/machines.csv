@@ -1,0 +1,7 @@
+machine_id,machine_name,area,model,commissioned_date,target_availability,target_oee,energy_kw_nominal
+M01,CNC Milling 5-Axis,Machining,DMG MORI DMU 50,2022-04-18,0.9,0.79,62.0
+M02,CNC Turning Center,Machining,Mazak QT-250,2021-11-06,0.89,0.78,48.0
+M03,Laser Cutting Cell,Cutting,TRUMPF TruLaser 3030,2023-02-15,0.92,0.81,71.0
+M04,Robotic Welding Cell,Welding,KUKA KR QUANTEC,2020-08-27,0.86,0.76,55.0
+M05,Assembly Line A,Assembly,Custom Semi-Automatic,2022-09-14,0.9,0.79,38.0
+M06,Assembly Line B,Assembly,Custom Semi-Automatic,2024-01-11,0.93,0.82,41.0

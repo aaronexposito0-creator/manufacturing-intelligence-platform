@@ -1,0 +1,9 @@
+[project]
+name = "manufacturing-intelligence-platform"
+version = "2.0.0"
+description = "Portfolio-grade industrial analytics decision-support application"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

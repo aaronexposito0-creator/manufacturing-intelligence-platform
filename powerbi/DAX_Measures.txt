@@ -1,0 +1,26 @@
+Planned Minutes = SUM(fact_production[planned_minutes])
+Run Minutes = SUM(fact_production[run_minutes])
+Total Qty = SUM(fact_production[total_qty])
+Good Qty = SUM(fact_production[good_qty])
+Scrap Qty = SUM(fact_production[scrap_qty])
+Planned Qty = SUM(fact_production[planned_qty])
+
+Availability = DIVIDE([Run Minutes], [Planned Minutes])
+
+Ideal Production Seconds =
+SUMX(
+    fact_production,
+    fact_production[ideal_cycle_time_s] * fact_production[total_qty]
+)
+
+Performance = DIVIDE([Ideal Production Seconds], [Run Minutes] * 60)
+Quality = DIVIDE([Good Qty], [Total Qty])
+OEE = [Availability] * [Performance] * [Quality]
+Scrap Rate = DIVIDE([Scrap Qty], [Total Qty])
+Plan Attainment = DIVIDE([Good Qty], [Planned Qty])
+
+Revenue = SUM(fact_production[revenue_eur])
+Production Cost = SUM(fact_production[production_cost_eur])
+Gross Margin = [Revenue] - [Production Cost]
+Gross Margin % = DIVIDE([Gross Margin], [Revenue])
+Unit Cost = DIVIDE([Production Cost], [Good Qty])

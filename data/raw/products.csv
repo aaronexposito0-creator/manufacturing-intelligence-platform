@@ -1,0 +1,7 @@
+product_id,product_name,family,ideal_cycle_time_s,material_cost_eur,standard_cost_eur,sale_price_eur
+P01,AX-100 Housing,Aluminium housing,62.0,44.0,60.0,94.0
+P02,AX-220 Shaft,Steel shaft,74.0,59.0,80.0,126.0
+P03,BX-410 Bracket,Structural bracket,38.0,26.0,35.5,56.0
+P04,CX-500 Frame,Welded frame,95.0,99.0,134.0,210.0
+P05,DX-700 Cover,Composite cover,52.0,48.0,65.0,102.0
+P06,EX-900 Module,Final assembly module,125.0,139.0,190.0,298.0

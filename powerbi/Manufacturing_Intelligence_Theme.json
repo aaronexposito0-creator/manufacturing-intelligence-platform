@@ -1,0 +1,7 @@
+{
+  "name": "Manufacturing Intelligence",
+  "dataColors": ["#4DA3FF", "#46C98B", "#FFB454", "#FF647C", "#86C8FF", "#8A94A6"],
+  "background": "#0D1117",
+  "foreground": "#F2F5F9",
+  "tableAccent": "#4DA3FF"
+}

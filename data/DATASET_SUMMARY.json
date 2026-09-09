@@ -1,0 +1,11 @@
+{
+  "seed": 20260909,
+  "production_orders": 5078,
+  "downtime_events": 12064,
+  "quality_checks": 15234,
+  "machines": 6,
+  "products": 6,
+  "date_min": "2025-01-01",
+  "date_max": "2026-08-31",
+  "synthetic": true
+}
